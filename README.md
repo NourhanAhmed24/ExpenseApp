@@ -1,8 +1,44 @@
-# React + Vite
+#Grocery Expense Tracker Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+This is a simple **Expense Tracker** web application that allows users to:
+- Add and manage expense items.
+- Filter expenses based on categories.
+- View a list of all expenses.
 
-Currently, two official plugins are available:
+## Features
+- User-friendly UI built using **Bootstrap**.
+- Expense filtering functionality.
+- Form validation with libraries like **Yup** and **React Hook Form**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack
+- **Frontend:** React, Bootstrap
+- **Validation:** Yup, React Hook Form
+
+## Installation
+1. Clone the repository:
+    ```bash
+    git clone <repo-url>
+    ```
+   
+2. Navigate to the project directory:
+    ```bash
+     cd <path>
+    ```
+   
+3. Install dependencies:
+    ```bash
+    npm install
+    ```
+
+4. Run the application:
+    ```bash
+    npm start
+    ```
+
+## Usage
+- Enter a description, amount, and category for each expense item.
+- Click **Submit** to add the expense.
+- Use the **Filter** option to display specific categories.
+- Use delete button to remove an item from the list.
+
