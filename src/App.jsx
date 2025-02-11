@@ -44,7 +44,6 @@ function App() {
         ];
   });
 
-  // Sync expenses to localStorage when they change
   useEffect(() => {
     localStorage.setItem("expenses", JSON.stringify(expenses));
   }, [expenses]);
